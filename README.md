@@ -1,29 +1,25 @@
-# Gender and Age Detection
+# Stock Price Prediction
 
-This project aims to detect the gender and age of individuals in real-time using a pre-trained deep learning model. The system processes input images or video frames to estimate a person's gender (male or female) and approximate age.
+## Overview
+
+This project aims to predict stock prices using various machine learning algorithms. By analyzing historical stock data, the model seeks to identify trends and make informed predictions about future stock prices.
+
+## Author
+
+**lifexsoul09**  
+*September 2024*
 
 ## Features
 
-- Detects gender (Male/Female).
-- Estimates age within a specified range.
-- Real-time processing using a webcam or video feed.
-- Supports image file input for static image predictions.
+- Data collection from various stock exchanges
+- Preprocessing of stock price data
+- Implementation of multiple machine learning models (e.g., Linear Regression, Decision Trees, etc.)
+- Evaluation metrics to assess model performance
+- Visualization of stock price trends and predictions
 
-## Project Overview
+## Installation
 
-This project utilizes **OpenCV**, **TensorFlow**, and **Keras** to process images and make predictions using a pre-trained deep learning model. The model is trained on a dataset of human faces and can predict the gender and age range of individuals.
-
-## Dependencies
-
-To run this project, ensure you have the following libraries installed:
-
-- Python 3.x
-- OpenCV
-- TensorFlow
-- Keras
-- Numpy
-
-You can install the required dependencies using the following command:
+To get started with this project, you will need to have Python installed. You can install the necessary packages using pip:
 
 ```bash
 pip install -r requirements.txt
